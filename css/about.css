@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 p {
     margin-left: auto;
@@ -17,6 +17,7 @@ p {
 	margin-bottom: 50px;
 	font-family: "Patua One";
 	font-size: 72px;
+	font-variant-caps: small-caps;
 }
 .creation p{
 	font-size: 36px;
@@ -70,7 +71,7 @@ p {
 	font-size: 72px;
 }
 .def p{
-	font-family: "Special Elite";
+	font-family: "Neucha";
 	font-size: 32px;
 }
 
@@ -104,7 +105,7 @@ p {
  	justify-content: center;
 }
 .features p{
-	font-family: "Special Elite";
+	font-family: "Neucha";
 	font-size: 32px;
 	margin-bottom: 100px;
 }

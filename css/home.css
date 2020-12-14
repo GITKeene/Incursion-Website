@@ -6,6 +6,7 @@ video {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 30px;
+  background: rgba(0,0,0,0.8); 
 }
 #mainLine{
 	margin-top: 20px;

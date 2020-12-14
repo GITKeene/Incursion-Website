@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 body{
 	background-position: center center;
 	-webkit-background-size:cover;
 	background-size:cover;
 }
 
+
 video {
   display: block;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 100px;
+  background: rgba(0,0,0,0.8); 
 }
+
 #releaseline{
 	border: 0;
 	margin: 1.35em auto;
@@ -67,7 +71,7 @@ h1{
 .screenshotimg{
 	width:1170px;
 	margin: 0 auto;
-	margin-bottom: 400px;
+	margin-bottom: 450px;
 
 }
 .screenshotimg a img{
