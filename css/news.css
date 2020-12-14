@@ -5,6 +5,7 @@
 #logoimg{
 	height:500px;
 	display: flex;
+	width: 100%;
  	margin: auto;
  	justify-content: center;
  	padding-top:100px;
