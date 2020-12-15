@@ -171,3 +171,8 @@ p{
 	padding-bottom:500px;
 	padding-left: 200px;
 }
+.flex{
+	display: flex;
+	justify-content: space-evenly
+	;
+}

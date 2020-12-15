@@ -1,37 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+*{
+    line-height: 150%;
+}
 #logoimg{
 	height:500px;
 	display: flex;
-	width: 100%;
  	margin: auto;
  	justify-content: center;
  	padding-top:100px;
     margin-bottom: 100px;
 }
-#news{
-    font-family: "Shadows Into Light";   
-    display: flex;
-    margin: auto;
-    justify-content: center;
+#news {
+    font-family: "Shadows Into Light";
+    margin-left: auto;
+    margin-right: auto;
+    width: 67.5%;
     font-size: 56px;
-        font-variant-caps: small-caps;
-
+    font-variant-caps: small-caps;
 }
-hr{
+hr {
     border: 0;
-    margin: 1.35em auto;
-    max-width: 30%;
+    width: 32%;
+    margin: auto 0 auto 250px;
     background-position: 50%;
     box-sizing: border-box;
     height: 1px;
     color: red;
     background: linear-gradient(90deg,rgba(0, 0,0, 0), rgba(0, 0,0, 0.75), rgba(0, 0,0, 0));
     margin-bottom: 100px;
-}
-
 }
 
 .blog-post{
@@ -60,8 +59,13 @@ hr{
     padding: 2rem;
 }
 /*Blog post card design*/
-.blog-post-title h2{
-    color:#673AB7;
+.blog-post-title h2 {
+    color: white;
+    font-size:42px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
     text-transform: uppercase;
 }
 .blog-post-read-more a{
@@ -145,11 +149,10 @@ hr{
     .blog-post{
     display: flex;
     flex-direction:row;
-    /*margin: 25rem;*/
     margin-left: 20rem;
     margin-right: 20rem;
     margin-top: 60px;
-    margin-bottom: 25rem;
+    margin-bottom: 100px;
     justify-content: center;
     align-items:center;
     background-color: rgba(167, 220, 218,0.3);
@@ -174,5 +177,7 @@ hr{
 }
 
 #post1 {
-    font-family: "Patua One", sans-serif;
+    font-family: "Neucha", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
 }
